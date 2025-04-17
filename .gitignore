@@ -1,0 +1,50 @@
+# Ignore build directories
+/build/
+/Debug/
+/Release/
+/x64/
+/x86/
+/bin/
+/obj/
+
+# Ignore IDE-specific files
+/.vscode/
+/.idea/
+/.vs/
+
+# Ignore compiled object files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# Ignore static libraries
+*.lib
+
+# Ignore generated project files
+*.vcxproj.user
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore dependency manager files
+*.d
+
+# Ignore CMake build files if using CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Ignore package manager directories
+/node_modules/
+vendor/
+
+# Ignore editor temporary files
+*~
+*.swp
+*.bak
+
+# Ignore log files
+*.log
